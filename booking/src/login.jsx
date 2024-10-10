@@ -1,12 +1,13 @@
-import React from 'react';
-import './login.css'; // Assuming you have a CSS file
+import React from "react";
+import "./login.css"; // Assuming you have a CSS file
 
 const Login = () => {
   return (
     <>
       <header className="header"></header> {/* Blue header added */}
       <div className="wrapper">
-        <img src="Alogo.png" alt="Company Logo" className="logo" /> {/* Logo added here */}
+        <img src="Alogo.png" alt="Company Logo" className="logo" />{" "}
+        {/* Logo added here */}
         <form>
           <h1>Login</h1>
           <div className="input-box">
@@ -21,11 +22,15 @@ const Login = () => {
             <label>
               <input type="checkbox" /> Remember me
             </label>
-            <a href="#">Forgot Password? hahaha na hack kayo ni kyle rawr </a>
+            <a href="#">Forgot Password? </a>
           </div>
-          <button type="submit" className="btn">Login</button>
+          <button type="submit" className="btn">
+            Login
+          </button>
           <div className="register-link">
-            <p>Don't Have an Account? <a href="#">Register</a></p>
+            <p>
+              Don't Have an Account? <a href="#">Register</a>
+            </p>
           </div>
         </form>
       </div>
